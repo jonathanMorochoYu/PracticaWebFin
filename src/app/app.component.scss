@@ -1,0 +1,36 @@
+header {
+    background: #82b4e9; /* Color azul */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Espaciado aumentado entre los enlaces */
+}
+
+nav ul li a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    padding: 10px 15px; /* Espacio alrededor del texto para mejorar la apariencia */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background 0.3s; /* Efecto de transición */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background: rgba(190, 11, 11, 0.2); /* Fondo semi-transparente al pasar el mouse */
+}
+
+.spacer {
+    height: 50px; /* Altura del espacio entre el menú y el pie de página */
+
+}
+
+

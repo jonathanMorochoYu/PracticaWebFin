@@ -1,0 +1,98 @@
+article, section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; /* Mejora la letra */
+}
+
+h2 {
+    color: #4b2bc0; /* Color rojo para los títulos */
+}
+
+/* Estilo para la barra de búsqueda */
+#buscarCursos {
+    width: 100%;
+    padding: 12px; /* Ajuste del padding */
+    margin-bottom: 20px;
+    border: 2px solid #C0392B; /* Color rojo para los bordes */
+    border-radius: 8px;
+    font-size: 18px; /* Aumento del tamaño de la fuente */
+    background-color: #f4f4f4;
+    transition: border-color 0.3s ease; /* Efecto al enfocar */
+}
+
+#buscarCursos:focus {
+    border-color: #E74C3C; /* Rojo más intenso al enfocar */
+}
+
+/* Estilo para la lista de cursos */
+#listaCursos div {
+    margin: 15px 0; /* Aumento del margen */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+/* Botón "Ver más detalles" */
+.btnDetalles {
+    background-color: #51df70; /* Color rojo */
+    color: white;
+    padding: 12px 18px; /* Aumento del padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Espaciado entre botones */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Añadir efecto al hover */
+}
+
+.btnDetalles:hover {
+    background-color: #A93226; /* Rojo más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Botón Editar */
+.btnEditar {
+    background-color: #2b2010;
+    color: white;
+    padding: 12px 18px; /* Aumento del padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Espaciado entre botones */
+}
+
+.btnEditar:hover {
+    background-color: #2b2010;
+}
+
+/* Botón Eliminar */
+.btnEliminar {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 18px; /* Aumento del padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Espaciado entre botones */
+}
+
+.btnEliminar:hover {
+    background-color: #d32f2f;
+}
+
+/* Detalles */
+.detalles {
+    margin-top: 10px;
+}
+
+/* Mejora de la letra en general */
+body {
+    font-size: 16px; /* Aumento del tamaño de la fuente global */
+    color: #333; /* Color del texto */
+}

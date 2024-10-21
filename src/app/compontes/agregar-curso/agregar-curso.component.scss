@@ -1,0 +1,51 @@
+article, section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; /* Mejorar la letra */
+}
+
+h2 {
+    color: #FF0000; /* Cambiado a rojo */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold; /* Añadir negrita a las etiquetas */
+    color: #333; /* Color de texto más oscuro para mejor legibilidad */
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Aumentar el tamaño de la fuente para mejor legibilidad */
+}
+
+.btnEnviar {
+    background: #007BFF; /* Cambiado a azul */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Aumentar el tamaño de la fuente */
+}
+
+.btnEnviar:hover {
+    background: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Si deseas cambiar el color del borde de los inputs al recibir foco */
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form textarea:focus {
+    border-color: #007BFF; /* Azul al enfocar */
+}

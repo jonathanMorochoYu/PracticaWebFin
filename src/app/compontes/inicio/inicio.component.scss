@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambiado a una fuente más moderna */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+article, section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra más suave */
+}
+
+h2 {
+    color: #8B4513; /* Color café */
+    font-size: 2em; /* Tamaño de fuente más grande */
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+p {
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 15px; /* Espacio debajo de cada párrafo */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background: #45a049;
+}
+
+/* Estilo para la barra de búsqueda */
+#buscarCursos {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+#listaCursos div {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.btnDetalles {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Botón Editar */
+.btnEditar {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btnEditar:hover {
+    background-color: #e68a00;
+}
+
+/* Botón Eliminar */
+.btnEliminar {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnEliminar:hover {
+    background-color: #d32f2f;
+}
+
+/* Efecto hover del botón "Ver más detalles" */
+.btnDetalles:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.detalles {
+    margin-top: 10px;
+}
+
+.imagen-curso {
+    display: block; /* Para que ocupe toda la línea */
+    margin: 20px auto; /* Centrar la imagen y dar margen superior/inferior */
+    max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease; /* Efecto de transición */
+}
+
+.imagen-curso:hover {
+    transform: scale(1.05); /* Aumentar tamaño de la imagen al pasar el mouse */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+}

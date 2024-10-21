@@ -1,0 +1,23 @@
+#contacto {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#contacto h2,
+#contacto h3 {
+    margin-bottom: 15px; /* Espacio debajo de los encabezados */
+}
+
+#contacto p {
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 10px; /* Espacio debajo de cada párrafo */
+}
+
+#contacto img {
+    vertical-align: middle; /* Alinea la imagen con el texto */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+
+}

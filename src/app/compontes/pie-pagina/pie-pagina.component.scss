@@ -1,0 +1,32 @@
+footer {
+    background-color: #f16161; /* Color rojo */
+    color: white; /* Color de texto */
+    text-align: center; /* Centramos el texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+.piePagina {
+    list-style: none; /* Quitamos los puntos de la lista */
+    padding: 0; /* Quitamos padding */
+    display: flex; /* Usamos flexbox para alinear los iconos */
+    justify-content: center; /* Centramos los iconos horizontalmente */
+    margin-bottom: 10px; /* Espacio entre los iconos y el texto */
+}
+
+.piePagina li {
+    margin: 0 15px; /* Espacio entre los iconos */
+}
+
+.piePagina li a {
+    color: white; /* Color de los iconos */
+    font-size: 30px; /* Tamaño de los iconos */
+    transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+.piePagina li a:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del icono al pasar el mouse */
+}
+
+footer p {
+    margin: 0; /* Sin margen para el texto */
+}
