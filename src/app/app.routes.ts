@@ -7,6 +7,6 @@ import { InicioComponent } from './compontes/inicio/inicio.component';
 export const routes: Routes = [
     {path: "Inicio", component:InicioComponent},
     {path:"Curso", component:CursoComponent},
-    {path:"AgregarCursos", component:AgregarCursoComponent},
-    {path:"Contacto", component:ContactoComponent}
+    {path:"Contacto", component:ContactoComponent},
+    {path:"AgregarCursos", component:AgregarCursoComponent}
 ];

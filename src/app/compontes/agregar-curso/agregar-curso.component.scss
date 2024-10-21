@@ -1,19 +1,21 @@
 article, section {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px auto; /* Centrando el contenedor */
+    padding: 15px; /* Reducción del padding */
     background: white;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif; /* Mejorar la letra */
+    max-width: 600px; /* Establecer un ancho máximo para mantenerlo compacto */
 }
 
 h2 {
     color: #FF0000; /* Cambiado a rojo */
+    text-align: center; /* Centrar el título */
 }
 
 form label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 5px 0; /* Reducir el margen para hacer más compacto */
     font-weight: bold; /* Añadir negrita a las etiquetas */
     color: #333; /* Color de texto más oscuro para mejor legibilidad */
 }
@@ -21,12 +23,12 @@ form label {
 form input[type="text"],
 form input[type="date"],
 form textarea {
-    width: 100%;
+    width: calc(100% - 22px); /* Ajustar el ancho total menos el padding y borde */
     padding: 10px;
-    margin: 5px 0 15px;
+    margin: 5px 0; /* Reducir el margen entre inputs */
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px; /* Aumentar el tamaño de la fuente para mejor legibilidad */
+    font-size: 14px; /* Reducir el tamaño de la fuente para un diseño más compacto */
 }
 
 .btnEnviar {
@@ -36,7 +38,8 @@ form textarea {
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 16px; /* Aumentar el tamaño de la fuente */
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
+    width: 100%; /* Botón de ancho completo */
 }
 
 .btnEnviar:hover {
